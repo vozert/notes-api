@@ -13,8 +13,8 @@ RUN npm install
 # Memindahkan seluruh berkas ke dalam direktori container
 COPY . .
  
-# Mengatur container untuk membuka dan menggunakan port 5000
-EXPOSE 5000
+# Mengatur container untuk membuka dan menggunakan port 3000
+EXPOSE 3000
  
 # Perintah untuk menjalankan aplikasi
 CMD [ "npm", "start" ]
